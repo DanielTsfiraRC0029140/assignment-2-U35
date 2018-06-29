@@ -174,10 +174,22 @@ namespace assignment_2_U35
         private void velocityToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-       
+            for (int i = 1; i < table.Count; i++)
+
+            {
+                double dA = table[i].Altitude - table[i - 1].Altitude;
+                double dt = table[i].time - table[i - 1].time;
+                table[i].AltitudeDerivative = dA / dt;
+                table[i].Velocity = table[i].AltitudeDerivative;
+            }
+
 
         }
 
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

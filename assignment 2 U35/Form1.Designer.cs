@@ -69,14 +69,14 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -93,21 +93,21 @@
             // altitudeToolStripMenuItem
             // 
             this.altitudeToolStripMenuItem.Name = "altitudeToolStripMenuItem";
-            this.altitudeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altitudeToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.altitudeToolStripMenuItem.Text = "Altitude";
             this.altitudeToolStripMenuItem.Click += new System.EventHandler(this.altitudeToolStripMenuItem_Click);
             // 
             // accelerationToolStripMenuItem
             // 
             this.accelerationToolStripMenuItem.Name = "accelerationToolStripMenuItem";
-            this.accelerationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.accelerationToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.accelerationToolStripMenuItem.Text = "Acceleration";
             this.accelerationToolStripMenuItem.Click += new System.EventHandler(this.accelerationToolStripMenuItem_Click);
             // 
             // velocityToolStripMenuItem
             // 
             this.velocityToolStripMenuItem.Name = "velocityToolStripMenuItem";
-            this.velocityToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.velocityToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.velocityToolStripMenuItem.Text = "Velocity";
             this.velocityToolStripMenuItem.Click += new System.EventHandler(this.velocityToolStripMenuItem_Click);
             // 
@@ -131,6 +131,7 @@
             this.chart1.Size = new System.Drawing.Size(800, 426);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
             // Form1
             // 
